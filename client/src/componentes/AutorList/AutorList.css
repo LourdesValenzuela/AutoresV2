@@ -1,0 +1,52 @@
+.autor-list-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.autor-list-table {
+    width: 100%;
+    border-collapse: collapse; /* Para asegurar que los bordes se fusionen y no se dupliquen */
+    margin-bottom: 20px;
+}
+
+.autor-list-table th, .autor-list-table td {
+    border: 1px solid #ddd; /* Color del borde */
+    padding: 8px; /* Espaciado interno de las celdas */
+    text-align: left;
+}
+
+.autor-list-table th {
+    background-color: rgb(203, 102, 216); /* Color de fondo de los encabezados */
+    color: white; /* Color del texto de los encabezados */
+    font-weight: bold;
+}
+
+.autor-list-table tr:nth-child(even) {
+    background-color: rgb(203, 102, 216); /* Fondo blanco para las filas pares */
+}
+
+.autor-list-table tr:nth-child(odd) {
+    background-color: #ffffff; /* Fondo negro para las filas impares */
+}
+
+.autor-list-table td {
+    color: #ffffff; /* Color del texto de las celdas */
+}
+
+.autor-list-actions button {
+    border: none;
+    background-color: rgb(203, 102, 216); /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.autor-list-actions button.edit {
+    background-color: rgb(203, 102, 216); /* Color de fondo para el botón de editar */
+}
+
+.autor-list-actions button:hover {
+    background-color: rgb(150, 70, 150); /* Color de fondo del botón al pasar el ratón */
+}

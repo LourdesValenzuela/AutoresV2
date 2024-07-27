@@ -1,0 +1,77 @@
+/* AutorForm.css */
+.autor-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.autor-form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Fondo blanco para contraste */
+    font-family: Arial, sans-serif;
+    color: rgb(173, 167, 167);
+}
+
+.autor-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
+.autor-form .form-group {
+    margin-bottom: 15px;
+}
+
+.autor-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.autor-form input[type="text"] {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+}
+
+.autor-form .form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.autor-form input[type="submit"],
+.autor-form a {
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.autor-form input[type="submit"] {
+    border: 1px solid #ddd;
+    background-color: #0a555f;
+    cursor: pointer;
+}
+
+.autor-form a {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    display: inline-block;
+    text-align: center;
+}
+
+.autor-form .cancel-link {
+    background-color: #0a555f;
+    border: 1px solid #ddd;
+}
